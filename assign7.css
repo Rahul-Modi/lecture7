@@ -1,0 +1,124 @@
+body{
+    font-family: poppins;
+}
+
+nav ul li{
+    display: inline;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    background-color:orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.web-title{
+    font-size: 60px;
+    font-weight: 700px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    gap: 30px;
+    margin: auto;
+}
+
+.container-2
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    padding: 20px;
+}
+
+.text-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-dark{
+    background-color: black;
+    color: white;
+}
+
+.section-title
+{
+    font-size: 50px;
+    margin:auto;
+}
+
+.grey-section{
+    background-color:rgb(227, 227, 221);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 10px;
+}
+
+.blog-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.custom-container{
+    width: 80%;
+    margin: auto;
+}
+
+.heading
+{
+    font-size: 45px;
+    font-family: cursive;
+}
+.socials
+{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.socials i{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    color: white;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
